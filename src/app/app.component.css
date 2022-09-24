@@ -1,0 +1,49 @@
+.Half {
+    display: inline-block;
+    /* border: 1px solid black; */
+    width: 45%;
+    height: 30rem;
+    margin: 2%;
+    vertical-align: top;
+}
+
+.divider {
+    display: inline-block;
+    margin-top: 5rem;
+    vertical-align: top;
+}
+
+.Images {
+    position: absolute;
+    width: 671px;
+    height: 661px;
+}
+
+
+/* Tags */
+p {
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 150px;
+    color: #7D7D7D;
+}
+
+.tags {
+    position: absolute;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+}
+
+.help {
+    left: 1250px;
+}
+
+.privacy {
+    left: 1325px
+}
+
+.terms {
+    left: 1400px
+}

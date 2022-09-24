@@ -1,0 +1,35 @@
+<img class="logo2" src="assets/Logo.png" alt="logo">
+      <div class="signup">
+        <table>
+          <tr>
+            <button class="btns Signin_btn" (click)="ToSignIn()">SIGN IN</button>
+            <button class="btns Signup_btn" disabled="true">SIGN UP</button>
+          </tr>
+          <tr>
+            <td>
+              <input type="text" name="first" id="first" placeholder="First Name">
+            </td>
+            <td>
+              <input type="text" name="second" id="second" placeholder="Second Name">
+            </td>
+          </tr>
+          <tr>
+            <input type="text" id="Test_DatetimeLocal" placeholder="Date of Birth">
+          </tr>
+          <tr>
+            <input type="email" placeholder="Email">
+          </tr>
+          <tr>
+            <input type="text" placeholder="Password">
+          </tr>
+          <tr>
+            <input type="{{Password_Type}}" name="pass" id="pass" placeholder="Re-Enter Password">
+            <span class="material-symbols-outlined eye" (click)="Eye()">
+              visibility
+            </span>
+          </tr>
+        </table>
+        <input type="checkbox" name="terms" id="TC">
+        <p>Accept the <a href="#">Terms</a> and <a href="#">Conditions</a></p>
+        <button class="btn btn-primary">SignUp</button>
+      </div>

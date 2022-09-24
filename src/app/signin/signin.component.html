@@ -1,0 +1,26 @@
+
+<img class="logo1" src="assets/Logo.png" alt="logo">
+      <div class="signin">
+        <table>
+          <tr>
+            <button class="btns Signin_btn" disabled="true">SIGN IN</button>
+            <button class="btns Signup_btn" (click)="ToSignUp()">SIGN UP</button>
+          </tr>
+          <tr>
+            <input type="email" name="email" id="email" placeholder="Email">
+          </tr>
+          <tr>
+            <input type="{{Password_Type}}" name="pass" id="pass" placeholder="Password">
+            <span class="material-symbols-outlined eye" (click)="Eye()">
+              visibility
+            </span>
+          <tr>
+            <td>
+              <a href="#">Forgot Password ?</a>
+            </td>
+            <td>
+              <button class="btn btn-primary">Sign In</button>
+            </td>
+          </tr>
+        </table>
+      </div>

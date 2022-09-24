@@ -1,0 +1,100 @@
+/*SignUp */
+.logo2 {
+    margin: 0 0 0 350px;
+    width: 155px;
+    height: 155px;
+}
+
+.signup {
+    margin: 10px 0 0 150px;
+    background: #FFFFFF;
+    border: 1px solid #C8C8C8;
+    border-radius: 10px;
+    width: 550px;
+    height: 500px;
+}
+
+.signup .btns {
+    margin-left: 120px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.05em;
+    border-radius: 50px;
+    height: 60px;
+}
+
+.signup .Signup_btn {
+    position: absolute;
+    background-color: #E03E00;
+    color: white;
+    width: 158px;
+    margin-left: -160px;
+}
+
+.signup .Signin_btn {
+    color: #E03E00;
+    background: #F7F7F7;
+    box-shadow: inset -4px -4px 2px rgba(0, 0, 0, 0.1), inset 0px 4px 2px rgba(0, 0, 0, 0.1);
+    width: 316px;
+    text-align: left;
+    color: #E03E00;
+    padding-left: 40px;
+}
+
+.signup input {
+    margin: 7px 50px;
+    width: 430px;
+    height: 50px;
+    border-radius: 8px;
+    border: 1px solid #C7C7C7;
+    padding: 5px 15px;
+}
+
+#first,
+#second {
+    width: 200px;
+}
+
+#second {
+    margin-left: -17rem;
+}
+
+.signup .eye {
+    color: #bcbbbb;
+    position: absolute;
+    margin-left: -90px;
+    margin-top: 27px;
+    cursor: pointer;
+}
+
+
+
+.signup .btn {
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 400px;
+}
+
+#TC {
+    position: absolute;
+    display: inline-block;
+    width: 15px;
+}
+
+.signup p {
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 70px;
+    color: #7D7D7D;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+
+

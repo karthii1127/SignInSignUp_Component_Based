@@ -6,5 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'SignInSignUp';
+  title = 'SigIn_SignUp';
+  isSignIn = true;
+  ToSignUp(){
+    this.isSignIn = false;
+  }
+  ToSignIn(){
+    this.isSignIn = true;
+  }   
 }
